@@ -12,7 +12,21 @@ You MUST provide the required enviroment variables: `APP_HOST`, `APP_DOMAIN`, an
 
 For more info see the [Namecheap help page](https://www.namecheap.com/support/knowledgebase/article.aspx/29/11/how-do-i-use-a-browser-to-dynamically-update-the-hosts-ip/).
 
-Usage:
+## usage
+
+pull docker image from `Docker Hub`:
+
+```bash
+$ docker pull dotwee/namecheap-ddns:latest
+```
+
+pull docker image from `GitHub Packages`:
+
+```bash
+$ docker pull ghcr.io/dotwee/namecheap-ddns:latest
+```
+
+### docker image usage
 
 ```bash
 $ docker run \
@@ -22,7 +36,7 @@ $ docker run \
     dotwee/namecheap-ddns:latest
 ```
 
-Usage (optional args):
+### usage with optional args
 
 ```bash
 $ docker run \
